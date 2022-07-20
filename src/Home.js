@@ -380,6 +380,11 @@ const Home = ()=>{
                                             <Form.Check type="checkbox" label="Accepting luggage?" />
                                         </Form.Group>
                                     </Col>
+                                    <Col md>
+                                        <Form.Group className="mb-3" controlId="formLuggage3">
+                                            <Form.Check type="checkbox" label="Recurring listing? (Saves your listing as a default)" />
+                                        </Form.Group>
+                                    </Col>
                                 </Row>
 
                                     <Form.Group

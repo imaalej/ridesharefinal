@@ -408,6 +408,12 @@ veuillez entrer la date de départ.</Form.Control.Feedback>
                                             <Form.Check type="checkbox" label="Accepter les bagages ?" />
                                         </Form.Group>
                                     </Col>
+                                    <Col md>
+                                        <Form.Group className="mb-3" controlId="formLuggage3">
+                                            <Form.Check type="checkbox" label="
+Annonce récurrente ? (Enregistre votre annonce par défaut)" />
+                                        </Form.Group>
+                                    </Col>
                                 </Row>
 
                                     <Form.Group
