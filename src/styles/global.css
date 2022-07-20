@@ -1,0 +1,246 @@
+body{
+    background-color: rgba(34,40,49,255);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    overflow-x: hidden;
+}
+.listing-header{
+    margin-left: 10%;
+}
+.popular-header{
+    margin-left: 10%;
+    display:inline-block;
+}
+.listing-box{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #393e46;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-ps1{
+    background-color: #0eadb7;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 22px;
+    border:none;
+    color: white;
+}
+
+.btn-ps1:hover{
+    background-color: #1a929d;
+    color:white;
+}
+
+.btn-success{
+    background-color: #1a929d;
+}
+
+.btn-ps1:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.popular-listings-header{
+    display:inline;
+    flex-wrap: wrap;
+}
+
+.btn-ps2{
+    margin-right: 10%;
+    float:right;
+    color: white;
+    background-color: #0eadb7;
+    border-radius: 10px;
+    padding: 15px;
+    border:none;
+}
+
+.btn-ps2:focus, .btn-ps2:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-ps2:hover, .btn-ps2:active{
+    color:white;
+    background-color: #1a929d;
+}
+
+.popular-listings{
+    margin: 0% 12% 0% 12%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.values-box{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #393e46;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.search{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.all-box{
+    margin-right: 50px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listing-container{
+    background-color: #393e46;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:20px;
+    margin:40px;
+}
+
+.all-header{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.contact-box{
+    padding: 50px;
+    background-color: #393e46;
+    border-radius: 20px;
+    margin: 0% 25% 0% 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-modal .modal-content {
+    background-color: #222831;
+    width: 50vw;
+    max-width: 50vw;
+  }
+
+.modal-90w{
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.nav-tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #0eadb7;
+    background-color: #222831;
+    border-color: #0eadb7;
+    border-radius: 10px;
+}
+
+.nav-item{
+    color: #0eadb7;
+    background-color: #222831;
+    border-color: #0eadb7;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.nav-tabs .nav-link:hover{
+    color: #0eadb7;
+    border-radius: 10px;
+}
+
+.nav-link{
+    color: #0eadb7;
+    font-size: larger;
+}
+
+
+.form-control , .form-control:focus{
+    background-color: #222831;
+    border: 2px solid #01a8b0;
+    color:white;
+}
+
+.form-control:focus{
+    box-shadow: 1px 1px 1px 1px rgba(0,173,181,0.4);
+}
+
+.form-check-input{
+    background-color: #222831;
+    border: 2px solid #01a8b0;
+    color:white;
+}
+
+.form-check-input:active, .form-check-input:checked{
+    background-color: #01a8b0;
+    border-color: #01a8b0;
+}
+
+.form-check-input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-ps3{
+    background-color: #222831;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-ps3:hover{
+    background-color: #1a929d;
+    color:white;
+}
+
+.btn-success{
+    background-color: #1a929d;
+}
+
+.btn-ps3:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-group{
+    border:2px solid #01a8b0;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logo2{
+    color:#01a8b0
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover{
+    color:#01a8b0;
+}

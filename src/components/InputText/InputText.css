@@ -1,0 +1,36 @@
+.input-box{
+    background-color: #393e46;
+    border: 2px solid #0eadb7;
+    border-radius: 5px;
+    padding: 5px;
+    width:fit-content;
+    margin: 0px 35px 0px 0px;
+}
+
+input, select, textarea {
+    background-color: #393e46;
+    margin: 5px;
+    color:#f0f0f0;
+    border-style: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.label{
+    opacity: 0.8;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left:2px;
+    width:fit-content;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input::-webkit-input-placeholder {
+    color: white; /*Change the placeholder color*/
+    opacity: 0.5; /*Change the opacity between 0 and 1*/
+}

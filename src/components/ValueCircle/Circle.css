@@ -1,0 +1,28 @@
+
+.circle{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 4px solid #0eadb7;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.circle > img{
+    height: 58px;
+    width: 58px;
+}
+
+.circle-box{
+    inline-size:200px;
+    overflow-wrap: break-word;
+}
+h6{
+    opacity: 0.8;
+}
+h6, h4{
+    text-align: center;
+}
